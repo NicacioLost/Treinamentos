@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp.NET\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj": {}
+    "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj": {}
   },
   "projects": {
-    "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp.NET\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj": {
+    "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp.NET\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj",
+        "projectUniqueName": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj",
         "projectName": "ProAgil.API",
-        "projectPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp.NET\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj",
+        "projectPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.API\\ProAgil.API.csproj",
         "packagesPath": "C:\\Users\\nicac\\.nuget\\packages\\",
-        "outputPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp.NET\\DOTNETCORE\\ProAgil.API\\obj\\",
+        "outputPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicac\\AppData\\Roaming\\NuGet\\NuGet.Config",
