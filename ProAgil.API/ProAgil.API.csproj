@@ -16,6 +16,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProAgil.Domain\ProAgil.Domain.csproj" />
+    <ProjectReference Include="..\ProAgil.Repository\ProAgil.Repository.csproj" />
+  </ItemGroup>
+
 
 
 </Project>

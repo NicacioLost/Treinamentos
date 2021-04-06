@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mxm9OcT2NuofLEhd5p6ZRYgD6gfBWZKMb5QgiuDmTe0Kz6xZJ5vOuS9YokHS5VbEWPz+LpXJuklVmJ9iuo1LTw==",
+  "success": true,
+  "projectFilePath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.Repository\\ProAgil.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicac\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\nicac\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

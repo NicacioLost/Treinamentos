@@ -1790,6 +1790,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ProAgil.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Domain.dll": {}
+        }
+      },
+      "ProAgil.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ProAgil.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProAgil.Repository.dll": {}
+        }
       }
     }
   },
@@ -6492,6 +6515,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ProAgil.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Domain/ProAgil.Domain.csproj",
+      "msbuildProject": "../ProAgil.Domain/ProAgil.Domain.csproj"
+    },
+    "ProAgil.Repository/1.0.0": {
+      "type": "project",
+      "path": "../ProAgil.Repository/ProAgil.Repository.csproj",
+      "msbuildProject": "../ProAgil.Repository/ProAgil.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6501,7 +6534,9 @@
       "Microsoft.EntityFrameworkCore.Analyzers >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.0",
+      "ProAgil.Domain >= 1.0.0",
+      "ProAgil.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6531,7 +6566,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.Domain\\ProAgil.Domain.csproj": {
+              "projectPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.Domain\\ProAgil.Domain.csproj"
+            },
+            "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.Repository\\ProAgil.Repository.csproj": {
+              "projectPath": "C:\\Notelost\\Projetos\\Cursos\\Full-Stack Asp Core\\DOTNETCORE\\ProAgil.Repository\\ProAgil.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
